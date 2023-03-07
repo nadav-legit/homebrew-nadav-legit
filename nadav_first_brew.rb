@@ -5,11 +5,11 @@
 class NadavFirstBrew < Formula
   desc ""
   homepage "https://github.com/nadav-legit/brew_test"
-  version "0.0.5"
+  version "0.0.6"
 
   on_macos do
-    url "https://github.com/nadav-legit/brew_test/releases/download/0.0.5/brew_test_0.0.5_darwin_all.tar.gz"
-    sha256 "49826e330d0d21c6a09c37e5e6c7a11332629dc6bbfe9cc2244781095f28ce75"
+    url "https://github.com/nadav-legit/brew_test/releases/download/0.0.6/brew_test_0.0.6_darwin_all.tar.gz"
+    sha256 "b0121fb6ea762c3643655b29d6df671cfad04dc0b00d1fb787b39974715e8bbf"
 
     def install
       bin.install "brew_test"
@@ -18,19 +18,19 @@ class NadavFirstBrew < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nadav-legit/brew_test/releases/download/0.0.5/brew_test_0.0.5_linux_arm64.tar.gz"
-      sha256 "2d3d63fbf28e2efe7f9c280025cda60e1dd7f8bbf4f1d78496927acfcd1717c8"
+      url "https://github.com/nadav-legit/brew_test/releases/download/0.0.6/brew_test_0.0.6_linux_arm64.tar.gz"
+      sha256 "e6599da83d9b9abedd61a4b83dcd181fdca7e7ca4ecf7b581578e8212f705d7f"
 
       def install
-        bin.install "mediumautopost"
+        bin.install "nadav_first_brew"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nadav-legit/brew_test/releases/download/0.0.5/brew_test_0.0.5_linux_amd64.tar.gz"
-      sha256 "5331b73b82b8fafd9e17a256dad6e28118a91667d5c2aba902f4aed2b183664f"
+      url "https://github.com/nadav-legit/brew_test/releases/download/0.0.6/brew_test_0.0.6_linux_amd64.tar.gz"
+      sha256 "2ca7843e0b242e6eaf675aaf37ff8298528878d4058369400df87e67675158db"
 
       def install
-        bin.install "mediumautopost"
+        bin.install "nadav_first_brew"
       end
     end
   end
