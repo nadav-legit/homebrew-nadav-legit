@@ -8,7 +8,7 @@ class BrewTest < Formula
   version "0.0.8"
 
   on_macos do
-    url "https://github.com/nadav-legit/brew_test/releases/download/0.0.7/brew_test_0.0.7_darwin_all.tar.gz"
+    url "https://github.com/nadav-legit/brew_test/releases/download/0.0.8/brew_test_0.0.8_darwin_all.tar.gz"
     sha256 "d33c0523a23d3b66e62ad7c236d8bcc33b98b06914b48d3736ec045980db92e8"
 
     def install
