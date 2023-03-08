@@ -5,7 +5,7 @@
 class BrewTest < Formula
   desc ""
   homepage "https://github.com/nadav-legit/brew_test"
-  version "0.0.7"
+  version "0.0.8"
 
   on_macos do
     url "https://github.com/nadav-legit/brew_test/releases/download/0.0.7/brew_test_0.0.7_darwin_all.tar.gz"
@@ -26,8 +26,8 @@ class BrewTest < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nadav-legit/brew_test/releases/download/0.0.7/brew_test_0.0.7_linux_amd64.tar.gz"
-      sha256 "a982399ab0dfaab42642e0c080f7a28d01fe0f6df5ebb1862135fec7109c2571"
+      url "https://github.com/nadav-legit/brew_test/releases/download/0.0.8/brew_test_0.0.8_linux_amd64.tar.gz"
+      sha256 "c488a82bf0ea7b5b463951fb426d7b90d6ea6e41f5b312121e857ccef56856c5"
 
       def install
         bin.install "brew_test"
