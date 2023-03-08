@@ -5,7 +5,6 @@
 class BrewTest < Formula
   desc ""
   homepage "https://github.com/nadav-legit/brew_test"
-  version "0.0.8"
 
   on_macos do
     url "https://github.com/nadav-legit/brew_test/releases/download/0.0.8/brew_test_0.0.8_darwin_all.tar.gz"
