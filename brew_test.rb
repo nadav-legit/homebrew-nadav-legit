@@ -7,9 +7,9 @@ class BrewTest < Formula
   homepage "https://github.com/nadav-legit/brew_test"
 
   on_macos do
-    url "https://github.com/legit-labs/legitify/releases/download/0.0.27/brew_test_darwin_amd64.tar.gz"
-    version "0.0.27"
-    sha256 "f33ae3bc9a22cd7564990a794789954409977013966fb1a8f43c35776b833a95"
+    url "https://github.com/legit-labs/legitify/releases/download/0.0.36/brew_test_darwin_amd64.tar.gz"
+    version "0.0.36"
+    sha256 "56979c7f4518c37d7281260557ecbee92a4b974f892707c9b610bf6b31abb632"
 
     def install
       bin.install "brew_test"
